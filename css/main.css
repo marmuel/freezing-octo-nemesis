@@ -335,6 +335,10 @@ padding: 90px 30px 0 390px;
     margin-top: 500px;
 	text-align: center;
 }
+.company-info-cus {
+    margin-top: 750px;
+	text-align: center;
+}
 .heart {
 	color: #CC0000;
 }
@@ -579,6 +583,11 @@ color: #999999;
 	font-size: 66px;
 color: #999999;
 }
+.docs-icon-cus{
+	margin-top:50px;
+	font-size: 66px;
+color: #999999;
+}
 .icons-docs{
 	margin-top: 30px;
 	text-align: center;
@@ -618,9 +627,14 @@ h1.page-header {
 	width: 30px;
 	float: left;
 }
+.radio-payment{
+		margin: 0px 0px 22px 0px;
+	width: 30px;
+}
 .payment-left, .payment-right{
 	width: 130px;
 	float: left;
+	height: 380px;
 }
 .payment-left{
 	margin-left: 0px;
@@ -633,9 +647,10 @@ margin: -16px 0px 0px 0px;
 padding: 28px 0px 0px 0px;
 }
 .prepare-mail-btn{
-	margin-top: 30px;
+	margin-right: 10px;
 }
-
+.buttons {margin: 0px 0px 0px 107px;}
+a.buttons{padding-right: 20px;}
 .header-title{
 	margin-top: 0px;
 	float: left;
@@ -738,4 +753,129 @@ margin-right: 10px;
 }
 .dashboard-widgets{
 	margin: 0 auto;
+}
+.tip{
+	color: #999999;
+	text-align: center;
+	margin: -20px 0px 30px 0px;
+}
+.invoice-info{
+	float: left;
+	width: 142px;
+	margin-right: 70px;
+	color: #999999;
+	text-align: center;
+	
+}
+.invoice-info-message{
+	margin: 0px 0px 0px 0px
+	float: left;
+	color: #999999;
+	
+}
+.invoice-info p{
+	margin-top: 20px;
+}
+.invoice-info a{
+	color: #999999
+}
+a.cus{
+	color: #ffffff;
+}
+.invoice-icon{
+	margin-top:30px;
+	margin-left: -10px;
+	font-size: 90px;
+color: #999999;
+}
+
+.discussions ul li .author img {
+height: 50px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+-webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.1);
+box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.1);
+}
+.discussions ul li .author {
+position: absolute;
+z-index: 1;
+width: 60px;
+float: left;
+top: 0px;
+left: -70px;
+}
+.discussions ul li .name {
+position: absolute;
+top: 10px;
+left: 10px;
+width: 100%;
+background: #999;
+padding: 5px 10px 5px 10px;
+color: #fff;
+}
+.discussions ul li .date {
+position: absolute;
+top: 10px;
+right: -1px;
+z-index: 1;
+background: #d4d4d4;
+padding: 5px 20px 5px 10px;
+}
+.discussions ul li .delete {
+position: absolute;
+background: #d4d4d4;
+top: 10px;
+right: -30px;
+padding: 5px 10px;
+display: inline-block;
+cursor: pointer;
+}
+.discussions ul li .message {
+margin: 20px -10px 0px -10px;
+padding: 20px;
+font-size: 14px;
+color: #999;
+}
+.discussions ul li {
+font-size: 12px;
+border: 1px solid #d4d4d4;
+position: relative;
+background: #e9e9e9;
+margin: 0 40px 20px 80px;
+padding: 10px;
+-webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.1);
+box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.1);
+}
+.discussions ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.discussions ul li:before {
+content: '';
+width: 20px;
+height: 20px;
+top: 15px;
+left: -20px;
+position: absolute;
+border-right: 10px solid #d4d4d4;
+border-top: 10px solid transparent;
+border-bottom: 10px solid transparent;
+}
+.discussions ul li:after {
+content: '';
+width: 20px;
+height: 20px;
+top: 15px;
+left: -19px;
+position: absolute;
+border-right: 10px solid #e9e9e9;
+border-top: 10px solid transparent;
+border-bottom: 10px solid transparent;
+}
+.discussions{
+	margin-left: -25px;
 }
