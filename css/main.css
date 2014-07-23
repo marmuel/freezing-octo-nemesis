@@ -811,7 +811,7 @@ position: absolute;
 top: 10px;
 left: 10px;
 width: 100%;
-background: #999;
+background: #5cb85c;
 padding: 5px 10px 5px 10px;
 color: #fff;
 }
@@ -820,12 +820,14 @@ position: absolute;
 top: 10px;
 right: -1px;
 z-index: 1;
-background: #d4d4d4;
+background: #428bca;
+color: #fff;
 padding: 5px 20px 5px 10px;
 }
 .discussions ul li .delete {
 position: absolute;
-background: #d4d4d4;
+background: #428bca;
+color: #fff;
 top: 10px;
 right: -30px;
 padding: 5px 10px;
@@ -837,6 +839,7 @@ margin: 20px -10px 0px -10px;
 padding: 20px;
 font-size: 14px;
 color: #999;
+height: 390px;
 }
 .discussions ul li {
 font-size: 12px;
@@ -878,4 +881,7 @@ border-bottom: 10px solid transparent;
 }
 .discussions{
 	margin-left: -25px;
+}
+.attachments{
+	margin: 0px 0px 0px 0px;
 }
